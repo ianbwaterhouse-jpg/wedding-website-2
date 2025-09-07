@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 // Custom SVGs extracted/styled to match invitation
 const PlaneSVG = () => (
   <img
-    src="/public/airplane.png"
+    src="airplane.png"
     alt="Airplane Icon"
     className="w-16 h-16 object-contain"
   />
@@ -32,7 +32,7 @@ export default function WeddingWebsite() {
     <div className="font-serif bg-[#fdfbf7] min-h-screen text-[#6a5a4f]">
       <section className="relative text-center py-20 overflow-hidden">
         <img
-          src="/public/map.png"
+          src="map.png"
           alt="World map background"
           className="absolute inset-0 w-full h-full object-cover opacity-10 z-0"
         />
